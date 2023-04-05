@@ -1,0 +1,22 @@
+img.logo {
+    width: 25%;
+}
+
+@media only screen and (max-width: 650px) {
+    img.logo {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    img.logo {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    img.logo {
+        width: 55%;
+    }
+}
+
