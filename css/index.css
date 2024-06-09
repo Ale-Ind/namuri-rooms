@@ -31,3 +31,16 @@ h4 span {
         color: black; font-size: 55%;
     }
 }
+
+/*modifica nome del b&b nell'index per migliore visibilità in base a schermi*/
+@media (min-width: 700px){
+    .namuri-title h3 {
+        text-shadow: -2.5px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
+    }
+}
+
+@media (max-width: 700px){
+    .namuri-title h3 {
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+}
