@@ -2155,3 +2155,86 @@ form#contactform1 {
 }
 
 /* //responsive */
+
+
+@media(max-width: 415px) {
+    a.ridimensionare {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 320px) {
+    a.ridimensionare {
+        font-size: 9px;
+    }
+}
+
+/*griglia home*/
+.welcome-grid img {
+    max-width: 100% !important; /* Assicura che l'immagine non superi la larghezza del contenitore */
+    height: auto !important; /* Mantiene le proporzioni dell'immagine */
+    margin-bottom: 20px !important; /* Uniforma lo spazio sotto le immagini */
+}
+
+.welcome-grid {
+    height: 100% !important; /* Assicura che tutte le griglie abbiano la stessa altezza */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+
+/*scurire wallpaper a inizio home per rendere logo e nome più visibili */
+/* Stile dell'overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Overlay nero con opacità al 50% */
+    z-index: 1; /* Assicurati che l'overlay sia sopra l'immagine */
+}
+
+/* Assicurati che gli elementi nel contenitore siano posizionati correttamente */
+.banner_slide_bg li {
+    position: relative;
+}
+
+/* Stile della didascalia */
+.w3ls_banner_txt {
+    position: relative;
+    z-index: 2; /* Assicurati che il testo sia sopra l'overlay */
+    color: white; /* Colore del testo */
+}
+
+
+/* Stile dell'overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Overlay nero con opacità al 30% */
+    z-index: 1; /* Assicurati che l'overlay sia sopra l'immagine */
+}
+
+/* Assicurati che gli elementi nel contenitore siano posizionati correttamente */
+.banner_slide_bg li {
+    position: relative;
+}
+
+/* Stile della didascalia */
+.w3ls_banner_txt {
+    position: relative;
+    z-index: 2; /* Assicurati che il testo sia sopra l'overlay */
+    color: white; /* Colore del testo */
+}
+
+/* Nascondi lo slider sotto i 768px */
+@media (max-width: 768px) {
+    .hidden_mobile {
+        display: none;
+    }
+}

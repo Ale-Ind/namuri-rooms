@@ -1,0 +1,33 @@
+.logo_prenotazione{
+    width: 25%;
+}
+
+nav.nav_w3ls a {
+    text-shadow: 2px 2px 2px black;
+}
+
+h4 span {
+    font-size: 60%;
+}
+
+.price-top p{
+    color: black; font-size: 85%;
+}
+
+@media only screen and (max-width: 350px) {
+    .price-top p {
+        color: black; font-size: 75%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .price-top p {
+        color: black; font-size: 65%;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    .price-top p {
+        color: black; font-size: 55%;
+    }
+}
